@@ -1,0 +1,16 @@
+import random
+
+
+yazi = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+# kullaniciya kac uzunlukta olan sifre istiyorsan diye sor
+
+print("kaç uzunlukta bir şifre istiyorsun?")
+
+sifre = ""
+
+for i in range(uzunluk):
+    random_karakter = random.choice(yazi)
+    sifre+= random_karakter
+
+print(sifre)
